@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      <title>Product List - Vishak</title>
+      <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700,900" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet"> 
+      <link href="https://cdn.mapkit.io/v1/infobox.css" rel="stylesheet" > 
+      <link href="css/style.css" rel="stylesheet">
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <!--[if lte IE 9]>
+      <link href="css/ie9.css" rel="stylesheet">
+      <![endif]-->
+      <script src="js/modernizr.js"></script>
+   </head>
+   <body>
+   <header>
+   <div id="mobile-icon">
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   </div>
+   <div class="mobileMenu">
+   <ul>
+   <li><a href="index.shtml" class="active">Home</a></li>
+   <li><a href="aboutus.shtml">About Us</a></li>
+   <li><a href="#">INSECT SCREENS</a></li>
+   <li><a href="#">WINDOW BLINDS</a>
+   <div class="submenuMobile">
+   <a href="#" class="backTo"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+   <ul>
+   <li><a href="#">VERTICAL BLINDS</a></li>
+   <li><a href="#">BLACKOUT ROLLER SHADES</a></li>
+   <li><a href="#">ZEBRA BLINDS</a></li>
+   <li><a href="#">ROLLER BLINDS</a></li>
+   </ul>
+   </div>
+   </li>
+   <li><a href="#">FITMENTS</a>
+   <div class="submenuMobile">
+   <a href="#" class="backTo"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+   <ul>
+   <li><a href="#">ZEBRA BLINDS</a></li>
+   <li><a href="#">ROLLER BLINDS</a></li>
+   <li><a href="#">VERTICAL BLINDS</a></li>
+   <li><a href="#">BLACKOUT ROLLER SHADES</a></li>
+   <li><a href="#">ZEBRA BLINDS</a></li>
+   <li><a href="#">ROLLER BLINDS</a></li>
+   </ul>
+   </div>
+   </li>
+   <li><a href="#">FREE BROCHURE</a></li>
+   <li><a href="#">DEALERSHIP ENQUIRIES</a></li>
+   <li><a href="gallary.shtml">Gallery</a></li>
+   <li><a href="contactus.shtml">Contact</a></li>
+   </ul>
+   </div>
+   <div class="container">
+   <div class="clearfix">
+   <div class="fL">
+   <a href="index.shtml"><img src="images/logo1.png" alt=""></a>
+   </div>
+   <div class="fR clearRelative">
+   <nav>
+   <ul>
+   <li><a href="index.shtml" class="active">Home</a></li>
+   <li><a href="aboutus.shtml">About US</a></li>
+   <li><a href="gallary.shtml">Gallery</a></li>
+   <li><a href="contactus.shtml">Contact</a></li>
+   <li>
+   <div id="nav-icon">
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   </div>
+   </li>
+   </ul>
+   </nav>
+   <div class="subMenu">
+   <ul>
+   <li><a href="#">INSECT SCREENS</a></li>
+   <li><a href="#">WINDOW BLINDS</a>
+   <ul>
+   <li><a href="#">VERTICAL BLINDS</a></li>
+   <li><a href="#">BLACKOUT ROLLER SHADES</a></li>
+   <li><a href="#">ZEBRA BLINDS</a></li>
+   <li><a href="#">ROLLER BLINDS</a></li>
+   </ul>
+   </li>
+   <li><a href="#">FITMENTS</a></li>
+   <li><a href="#">FREE BROCHURE</a></li>
+   <li><a href="#">DEALERSHIP ENQUIRIES</a></li>
+   </ul>
+   </div>
+   </div>
+   </div>
+   </div>
+   </header>
+   <div class="subpage">
+   <div class="container">
+   <h2>Products</h2>
+   <div class="filterSliding">
+   <div>
+   <ul>
+   <li data-filter="*" class="active">All</li>
+   <li data-filter=".window">Window</li>
+   <li data-filter=".insect">Insect</li>
+   <li data-filter=".fitments">Fitments</li>
+   <li data-filter=".brochure">Brochure</li>
+   </ul>
+   </div>
+   </div>
+   <div class="productTiles grid">
+   <div class="element-item window">
+   <a href="#" class="productTub" data-block="sliderProductdesc1">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product1.jpg" alt="">
+   </div>
+   <span>Pleated System 1</span>
+   </a>
+   </div>
+   <div class="element-item insect">
+   <a href="#" class="productTub" data-block="sliderProductdesc1">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product1.jpg" alt="">
+   </div>
+   <span>Pleated System 2</span>
+   </a>
+   </div>
+   <div class="element-item fitments">
+   <a href="#" class="productTub" data-block="sliderProductdesc1">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product1.jpg" alt="">
+   </div>
+   <span>Pleated System 3</span>
+   </a>
+   </div>
+   <div class="element-item brochure">
+   <a href="#" class="productTub" data-block="sliderProductdesc1">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product1.jpg" alt="">
+   </div>
+   <span>Pleated System 4</span>
+   </a>
+   </div>
+   <div class="element-item window">
+   <a href="#" class="productTub" data-block="sliderProductdesc1">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product1.jpg" alt="">
+   </div>
+   <span>Pleated System 5</span>
+   </a>
+   </div>
+   </div>
+   </div>
+   </div>
+   <footer>
+   <div class="container">
+   <div class="flexfooter clearfix">
+   <div class="fL">
+   <p>© 2017 Vishak Innovations Pvt. Ltd.<br/>
+   All Rights Reserved.</p>
+   </div>
+   <div class="fR">
+   <ul>
+   <li><a href="#">Privacy Policy</a></li>
+   <li><a href="#">Contact Us</a></li>
+   <li><a href="#">FAQ</a></li>
+   </ul>
+   </div>
+   </div>
+   </div>
+   </footer>
+   <div class="popForm">
+   <div>
+   <a href="#" class="closePop"></a>
+   <h2 class="text-center">Enquiry Form</h2>
+   <div class="inputLife">
+   <input type="text" class="txtSingle" placeholder="Name" name="">
+   </div>
+   <div class="inputLife">
+   <input type="email" class="txtSingle" placeholder="Email" name="">
+   </div>
+   <div class="inputLife">
+   <input type="number" class="txtSingle" placeholder="Mobile Number" name="">
+   </div>
+   <div class="inputLife">
+   <textarea rows="5" class="txtSingle" placeholder="Message"></textarea>
+   </div>
+   <div class="text-center">
+   <a href="#" class="btn secondary">Send</a>
+   </div>
+   </div>
+   </div>
+   <!-- script -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script src="js/main.min.js"></script>
+   </body>
+</html>

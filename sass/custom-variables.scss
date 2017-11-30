@@ -1,0 +1,24 @@
+$white: #FFF;
+$black: #000;
+$dgrey: #303030;
+$red: #EB1C24;
+$maroon: #8A0203;
+$lgrey: #EFEFEF;
+$awe: 'FontAwesome';
+$font: 'Montserrat', sans-serif;
+.transitionRegular {
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	transition:all 0.3s linear;
+}
+.appear {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+.backface {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+} 

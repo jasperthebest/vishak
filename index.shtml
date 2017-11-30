@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      <title>Vishak</title>
+      <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700,900" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet"> 
+      <link href="https://cdn.mapkit.io/v1/infobox.css" rel="stylesheet" > 
+      <link href="css/style.css" rel="stylesheet">
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <!--[if lte IE 9]>
+      <link href="css/ie9.css" rel="stylesheet">
+      <![endif]-->
+      <script src="js/modernizr.js"></script>
+   </head>
+   <body>
+   <header>
+   <div id="mobile-icon">
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   </div>
+   <div class="mobileMenu">
+   <ul>
+   <li><a href="index.shtml" class="active">Home</a></li>
+   <li><a href="aboutus.shtml">About Us</a></li>
+   <li><a href="#">INSECT SCREENS</a></li>
+   <li><a href="#">WINDOW BLINDS</a>
+   <div class="submenuMobile">
+   <a href="#" class="backTo"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+   <ul>
+   <li><a href="#">VERTICAL BLINDS</a></li>
+   <li><a href="#">BLACKOUT ROLLER SHADES</a></li>
+   <li><a href="#">ZEBRA BLINDS</a></li>
+   <li><a href="#">ROLLER BLINDS</a></li>
+   </ul>
+   </div>
+   </li>
+   <li><a href="#">FITMENTS</a>
+   <div class="submenuMobile">
+   <a href="#" class="backTo"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+   <ul>
+   <li><a href="#">ZEBRA BLINDS</a></li>
+   <li><a href="#">ROLLER BLINDS</a></li>
+   <li><a href="#">VERTICAL BLINDS</a></li>
+   <li><a href="#">BLACKOUT ROLLER SHADES</a></li>
+   <li><a href="#">ZEBRA BLINDS</a></li>
+   <li><a href="#">ROLLER BLINDS</a></li>
+   </ul>
+   </div>
+   </li>
+   <li><a href="#">FREE BROCHURE</a></li>
+   <li><a href="#">DEALERSHIP ENQUIRIES</a></li>
+   <li><a href="gallary.shtml">Gallery</a></li>
+   <li><a href="contactus.shtml">Contact</a></li>
+   </ul>
+   </div>
+   <div class="container">
+   <div class="clearfix">
+   <div class="fL">
+   <a href="index.shtml"><img src="images/logo1.png" alt=""></a>
+   </div>
+   <div class="fR clearRelative">
+   <nav>
+   <ul>
+   <li><a href="index.shtml" class="active">Home</a></li>
+   <li><a href="aboutus.shtml">About US</a></li>
+   <li><a href="gallary.shtml">Gallery</a></li>
+   <li><a href="contactus.shtml">Contact</a></li>
+   <li>
+   <div id="nav-icon">
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   </div>
+   </li>
+   </ul>
+   </nav>
+   <div class="subMenu">
+   <ul>
+   <li><a href="#">INSECT SCREENS</a></li>
+   <li><a href="#">WINDOW BLINDS</a>
+   <ul>
+   <li><a href="#">VERTICAL BLINDS</a></li>
+   <li><a href="#">BLACKOUT ROLLER SHADES</a></li>
+   <li><a href="#">ZEBRA BLINDS</a></li>
+   <li><a href="#">ROLLER BLINDS</a></li>
+   </ul>
+   </li>
+   <li><a href="#">FITMENTS</a></li>
+   <li><a href="#">FREE BROCHURE</a></li>
+   <li><a href="#">DEALERSHIP ENQUIRIES</a></li>
+   </ul>
+   </div>
+   </div>
+   </div>
+   </div>
+   </header>
+   <div class="sliderHome">
+   <div>
+   <div class="coverBG" data-bg="images/slider1.jpg">
+   <div class="flexCover">
+   <div class="container">
+   <div>
+   <span>Insect screening solutions for your home</span>
+   <a href="#" class="btn glassy enquireNow">ENQUIRE NOW</a>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   <div>
+   <div class="coverBG" data-bg="images/slider1.jpg">
+   <div class="flexCover">
+   <div class="container">
+   <div>
+   <span>Insect screening solutions for your home</span>
+   <a href="#" class="btn glassy enquireNow">ENQUIRE NOW</a>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   <div>
+   <div class="coverBG" data-bg="images/slider1.jpg">
+   <div class="flexCover">
+   <div class="container">
+   <div>
+   <span>Insect screening solutions for your home</span>
+   <a href="#" class="btn glassy enquireNow">ENQUIRE NOW</a>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   <div class="secondLayer">
+   <div class="container">
+   <div class="insectPart">
+   <h1 data-animated="fadeInUp">Why Insect screening is crucial</h1>
+   <ul data-animated="fadeInUp">
+   <li>Insect free homes all day and night long</li>
+   <li>It creates cooler, more comfortable environments</li>
+   <li>It eliminates the need for sprays, and thereby strong chemicals</li>
+   <li>It is simply user-friendly</li>
+   <li>When in use the screens are visually pleasing, and when not in use they fully retract discreetly for an uninterrupted view outside.</li>
+   </ul>
+   <a href="#" class="btn glassy imgbtn enquireNow" data-animated="fadeInUp">ENQUIRE NOW</a>
+   </div>
+   </div>
+   </div>
+   <div class="thirdLayer">
+   <div class="container">
+   <h2 data-animated="fadeInUp">Our Products</h2>
+   </div>
+   <div class="redProduct">
+   <div class="container">
+   <div class="productMaper" data-animated="fadeInUp">
+   <div>
+   <a href="#" class="productTub" data-block="sliderProductdesc1">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product1.jpg" alt="">
+   </div>
+   <span>Pleated System</span>
+   </a>
+   </div>
+   <div>
+   <a href="#" class="productTub" data-block="sliderProductdesc2">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product2.jpg" alt="">
+   </div>
+   <span>Barrier Free</span>
+   </a>
+   </div>
+   <div>
+   <a href="#" class="productTub" data-block="sliderProductdesc3">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product3.jpg" alt="">
+   </div>
+   <span>Sliding system screens</span>
+   </a>
+   </div>
+   <div>
+   <a href="#" class="productTub" data-block="sliderProductdesc4">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product1.jpg" alt="">
+   </div>
+   <span>Pleated System</span>
+   </a>
+   </div>
+   <div>
+   <a href="#" class="productTub" data-block="sliderProductdesc5">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product1.jpg" alt="">
+   </div>
+   <span>Pleated System</span>
+   </a>
+   </div>
+   <div>
+   <a href="#" class="productTub" data-block="sliderProductdesc6">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product2.jpg" alt="">
+   </div>
+   <span>Barrier Free</span>
+   </a>
+   </div>
+   <div>
+   <a href="#" class="productTub" data-block="sliderProductdesc7">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product3.jpg" alt="">
+   </div>
+   <span>Sliding system screens</span>
+   </a>
+   </div>
+   <div>
+   <a href="#" class="productTub" data-block="sliderProductdesc8">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product1.jpg" alt="">
+   </div>
+   <span>Pleated System</span>
+   </a>
+   </div>
+   </div>
+   <!-- Add Mobile Version -->
+   <div class="productMap" data-animated="fadeInUp">
+   <div>
+   <a href="#" class="productTub" data-block="sliderProductdesc1">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product1.jpg" alt="">
+   </div>
+   <span>Pleated System</span>
+   </a>
+   </div>
+   <div>
+   <a href="#" class="productTub" data-block="sliderProductdesc2">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product2.jpg" alt="">
+   </div>
+   <span>Barrier Free</span>
+   </a>
+   </div>
+   <div>
+   <a href="#" class="productTub" data-block="sliderProductdesc3">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product3.jpg" alt="">
+   </div>
+   <span>Sliding system screens</span>
+   </a>
+   </div>
+   <div>
+   <a href="#" class="productTub" data-block="sliderProductdesc4">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product1.jpg" alt="">
+   </div>
+   <span>Pleated System</span>
+   </a>
+   </div>
+   <div>
+   <a href="#" class="productTub" data-block="sliderProductdesc5">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product1.jpg" alt="">
+   </div>
+   <span>Pleated System</span>
+   </a>
+   </div>
+   <div>
+   <a href="#" class="productTub" data-block="sliderProductdesc6">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product2.jpg" alt="">
+   </div>
+   <span>Barrier Free</span>
+   </a>
+   </div>
+   <div>
+   <a href="#" class="productTub" data-block="sliderProductdesc7">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product3.jpg" alt="">
+   </div>
+   <span>Sliding system screens</span>
+   </a>
+   </div>
+   <div>
+   <a href="#" class="productTub" data-block="sliderProductdesc8">
+   <div>
+   <div>
+   <span>More Info</span>
+   </div>
+   <img src="images/product1.jpg" alt="">
+   </div>
+   <span>Pleated System</span>
+   </a>
+   </div>
+   </div>
+   </div>
+   </div>
+   <div class="slideProduct" data-animated="fadeInUp" id="slideTabScroll">
+   <div class="sliderProductdesc1">
+   <div class="container">
+   <a href="#" class="closeProduct">X</a>
+   <h2>Sliding System Screens</h2>
+   <ul>
+   <li>High fabricated polyester fabrics only used</li>
+   <li>No bottom frame is used</li>
+   <li>Easy installation</li>
+   <li>Needed space for installation: 4.5cm</li>
+   </ul>
+   <h2>Available frame colors:</h2>
+   <ul>
+   <li>White</li>
+   <li>Dark Brown</li>
+   <li>Honey Gold</li>
+   <li>Ivory</li>
+   </ul>
+   <a href="#" class="btn secondary">View Details</a>
+   </div>
+   </div>
+   <div class="sliderProductdesc2">
+   <div class="container">
+   <a href="#" class="closeProduct">X</a>
+   <h2>Sliding System Screens2</h2>
+   <ul>
+   <li>High fabricated polyester fabrics only used</li>
+   <li>No bottom frame is used</li>
+   <li>Easy installation</li>
+   <li>Needed space for installation: 4.5cm</li>
+   </ul>
+   <h2>Available frame colors:</h2>
+   <ul>
+   <li>White</li>
+   <li>Dark Brown</li>
+   <li>Honey Gold</li>
+   <li>Ivory</li>
+   </ul>
+   <a href="#" class="btn secondary">View Details</a>
+   </div>
+   </div>
+   <div class="sliderProductdesc3">
+   <div class="container">
+   <a href="#" class="closeProduct">X</a>
+   <h2>Sliding System Screens3</h2>
+   <ul>
+   <li>High fabricated polyester fabrics only used</li>
+   <li>No bottom frame is used</li>
+   <li>Easy installation</li>
+   <li>Needed space for installation: 4.5cm</li>
+   </ul>
+   <h2>Available frame colors:</h2>
+   <ul>
+   <li>White</li>
+   <li>Dark Brown</li>
+   <li>Honey Gold</li>
+   <li>Ivory</li>
+   </ul>
+   <a href="#" class="btn secondary">View Details</a>
+   </div>
+   </div>
+   <div class="sliderProductdesc4">
+   <div class="container">
+   <a href="#" class="closeProduct">X</a>
+   <h2>Sliding System Screens4</h2>
+   <ul>
+   <li>High fabricated polyester fabrics only used</li>
+   <li>No bottom frame is used</li>
+   <li>Easy installation</li>
+   <li>Needed space for installation: 4.5cm</li>
+   </ul>
+   <h2>Available frame colors:</h2>
+   <ul>
+   <li>White</li>
+   <li>Dark Brown</li>
+   <li>Honey Gold</li>
+   <li>Ivory</li>
+   </ul>
+   <a href="#" class="btn secondary">View Details</a>
+   </div>
+   </div>
+   <div class="sliderProductdesc5">
+   <div class="container">
+   <a href="#" class="closeProduct">X</a>
+   <h2>Sliding System Screens5</h2>
+   <ul>
+   <li>High fabricated polyester fabrics only used</li>
+   <li>No bottom frame is used</li>
+   <li>Easy installation</li>
+   <li>Needed space for installation: 4.5cm</li>
+   </ul>
+   <h2>Available frame colors:</h2>
+   <ul>
+   <li>White</li>
+   <li>Dark Brown</li>
+   <li>Honey Gold</li>
+   <li>Ivory</li>
+   </ul>
+   <a href="#" class="btn secondary">View Details</a>
+   </div>
+   </div>
+   <div class="sliderProductdesc6">
+   <div class="container">
+   <a href="#" class="closeProduct">X</a>
+   <h2>Sliding System Screens6</h2>
+   <ul>
+   <li>High fabricated polyester fabrics only used</li>
+   <li>No bottom frame is used</li>
+   <li>Easy installation</li>
+   <li>Needed space for installation: 4.5cm</li>
+   </ul>
+   <h2>Available frame colors:</h2>
+   <ul>
+   <li>White</li>
+   <li>Dark Brown</li>
+   <li>Honey Gold</li>
+   <li>Ivory</li>
+   </ul>
+   <a href="#" class="btn secondary">View Details</a>
+   </div>
+   </div>
+   <div class="sliderProductdesc7">
+   <div class="container">
+   <a href="#" class="closeProduct">X</a>
+   <h2>Sliding System Screens7</h2>
+   <ul>
+   <li>High fabricated polyester fabrics only used</li>
+   <li>No bottom frame is used</li>
+   <li>Easy installation</li>
+   <li>Needed space for installation: 4.5cm</li>
+   </ul>
+   <h2>Available frame colors:</h2>
+   <ul>
+   <li>White</li>
+   <li>Dark Brown</li>
+   <li>Honey Gold</li>
+   <li>Ivory</li>
+   </ul>
+   <a href="#" class="btn secondary">View Details</a>
+   </div>
+   </div>
+   <div class="sliderProductdesc8">
+   <div class="container">
+   <a href="#" class="closeProduct">X</a>
+   <h2>Sliding System Screens8</h2>
+   <ul>
+   <li>High fabricated polyester fabrics only used</li>
+   <li>No bottom frame is used</li>
+   <li>Easy installation</li>
+   <li>Needed space for installation: 4.5cm</li>
+   </ul>
+   <h2>Available frame colors:</h2>
+   <ul>
+   <li>White</li>
+   <li>Dark Brown</li>
+   <li>Honey Gold</li>
+   <li>Ivory</li>
+   </ul>
+   <a href="#" class="btn secondary">View Details</a>
+   </div>
+   </div>
+   </div>
+   </div>
+   <div class="fourthLayer">
+   <div class="container">
+   <div class="rightMove">
+   <div>
+   <h2 data-animated="fadeInUp">Why us?</h2>
+   <p data-animated="fadeInUp">We’re a solid team of multi-talented manufacturers, combined with cutting edge research and world class products ensures the best quality screens designed for homes and offices.</p>
+   </div>
+   </div>
+   <div class="flexIcon">
+   <div>
+   <div>
+   <img src="images/icon3.png" alt="">
+   <span>Value for money</span>
+   </div>
+   </div>
+   <div>
+   <div>
+   <img src="images/icon1.png" alt="">
+   <span>Superior Quality</span>
+   </div>
+   </div>
+   <div>
+   <div>
+   <img src="images/icon2.png" alt="">
+   <span>Easy to clean</span>
+   </div>
+   </div>
+   <div>
+   <div>
+   <img src="images/icon4.png" alt="">
+   <span>Wide Choice &amp; Protection</span>
+   </div>
+   </div>
+   <div>
+   <div>
+   <img src="images/icon6.png" alt="">
+   <span>Perfect Installation</span>
+   </div>
+   </div>
+   <div>
+   <div>
+   <img src="images/icon5.png" alt="">
+   <span>Saves Energy</span>
+   </div>
+   </div>
+   <div>
+   <div>
+   <img src="images/icon8.png" alt="">
+   <span>Durable</span>
+   </div>
+   </div>
+   <div>
+   <div>
+   <img src="images/icon7.png" alt="">
+   <span>Eco-friendly</span>
+   </div>
+   </div>
+   </div>
+   <!-- Mobile View Icons -->
+   <div class="flexSliderm">
+   <div>
+   <div>
+   <img src="images/icon3.png" alt="">
+   <span>Value for money</span>
+   </div>
+   </div>
+   <div>
+   <div>
+   <img src="images/icon1.png" alt="">
+   <span>Superior Quality</span>
+   </div>
+   </div>
+   <div>
+   <div>
+   <img src="images/icon2.png" alt="">
+   <span>Easy to clean</span>
+   </div>
+   </div>
+   <div>
+   <div>
+   <img src="images/icon4.png" alt="">
+   <span>Wide Choice &amp; Protection</span>
+   </div>
+   </div>
+   <div>
+   <div>
+   <img src="images/icon6.png" alt="">
+   <span>Perfect Installation</span>
+   </div>
+   </div>
+   <div>
+   <div>
+   <img src="images/icon5.png" alt="">
+   <span>Saves Energy</span>
+   </div>
+   </div>
+   <div>
+   <div>
+   <img src="images/icon8.png" alt="">
+   <span>Durable</span>
+   </div>
+   </div>
+   <div>
+   <div>
+   <img src="images/icon7.png" alt="">
+   <span>Eco-friendly</span>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   <div class="fifthLayer">
+   <div class="container">
+   <h2 data-animated="fadeInUp">Where are we?</h2>
+   </div>
+   <div id='mapkit-8592'></div>
+   </div>
+   <div class="sixthLayer">
+   <div class="container">
+   <div class="clearfix">
+   <div class="fL">
+   <h2 data-animated="fadeInUp">Vishak Innovations Pvt. Ltd.</h2>
+   <p data-animated="fadeInUp">AP 2261, H Block, 10th Street, Kathiravan Colony,<br/>
+   Anna Nagar West, Chennai - 600040</p>
+   </div>
+   <div class="fR text-right">
+   <span class="callTo" data-animated="fadeInUp"><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:8939111113">91 8939111113</a> , <a href="tel:8939111114">+91 8939111114</a></span>
+   <a href="mailto:info@vaishak.co.in" class="mailTo" data-animated="fadeInUp"><small>info</small>@vaishak.co.in</a>
+   <div class="text-right">
+   <ul class="socialList" data-animated="fadeInUp">
+   <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+   <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+   <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+   </ul>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   <footer>
+   <div class="container">
+   <div class="flexfooter clearfix">
+   <div class="fL">
+   <p>© 2017 Vishak Innovations Pvt. Ltd.<br/>
+   All Rights Reserved.</p>
+   </div>
+   <div class="fR">
+   <ul>
+   <li><a href="#">Privacy Policy</a></li>
+   <li><a href="#">Contact Us</a></li>
+   <li><a href="#">FAQ</a></li>
+   </ul>
+   </div>
+   </div>
+   </div>
+   </footer>
+   <div class="popForm">
+   <div>
+   <a href="#" class="closePop"></a>
+   <h2 class="text-center">Enquiry Form</h2>
+   <div class="inputLife">
+   <input type="text" class="txtSingle" placeholder="Name" name="">
+   </div>
+   <div class="inputLife">
+   <input type="email" class="txtSingle" placeholder="Email" name="">
+   </div>
+   <div class="inputLife">
+   <input type="number" class="txtSingle" placeholder="Mobile Number" name="">
+   </div>
+   <div class="inputLife">
+   <textarea rows="5" class="txtSingle" placeholder="Message"></textarea>
+   </div>
+   <div class="text-center">
+   <a href="#" class="btn secondary">Send</a>
+   </div>
+   </div>
+   </div>
+   <!-- script -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=&extension=.js"></script> 
+   <script src="https://cdn.mapkit.io/v1/infobox.js"></script>
+   <script> 
+    google.maps.event.addDomListener(window, 'load', init);
+    var map, markersArray = [];
+
+    function bindInfoWindow(marker, map, location) {
+        google.maps.event.addListener(marker, 'click', function() {
+            function close(location) {
+                location.ib.close();
+                location.infoWindowVisible = false;
+                location.ib = null;
+            }
+
+            if (location.infoWindowVisible === true) {
+                close(location);
+            } else {
+                markersArray.forEach(function(loc, index){
+                    if (loc.ib && loc.ib !== null) {
+                        close(loc);
+                    }
+                });
+
+                var boxText = document.createElement('div');
+                boxText.style.cssText = 'background: #fff;';
+                boxText.classList.add('md-whiteframe-2dp');
+
+                function buildPieces(location, el, part, icon) {
+                    if (location[part] === '') {
+                        return '';
+                    } else if (location.iw[part]) {
+                        switch(el){
+                            case 'photo':
+                                if (location.photo){
+                                    return '<div class="iw-photo" style="background-image: url(' + location.photo + ');"></div>';
+                                 } else {
+                                    return '';
+                                }
+                                break;
+                            case 'iw-toolbar':
+                                return '<div class="iw-toolbar"><h3 class="md-subhead">' + location.title + '</h3></div>';
+                                break;
+                            case 'div':
+                                switch(part){
+                                    case 'email':
+                                        return '<div class="iw-details"><i class="material-icons" style="color:#4285f4;"><img src="//cdn.mapkit.io/v1/icons/' + icon + '.svg"/></i><span><a href="mailto:' + location.email + '" target="_blank">' + location.email + '</a></span></div>';
+                                        break;
+                                    case 'web':
+                                        return '<div class="iw-details"><i class="material-icons" style="color:#4285f4;"><img src="//cdn.mapkit.io/v1/icons/' + icon + '.svg"/></i><span><a href="' + location.web + '" target="_blank">' + location.web_formatted + '</a></span></div>';
+                                        break;
+                                    case 'desc':
+                                        return '<label class="iw-desc" for="cb_details"><input type="checkbox" id="cb_details"/><h3 class="iw-x-details">Details</h3><i class="material-icons toggle-open-details"><img src="//cdn.mapkit.io/v1/icons/' + icon + '.svg"/></i><p class="iw-x-details">' + location.desc + '</p></label>';
+                                        break;
+                                    default:
+                                        return '<div class="iw-details"><i class="material-icons"><img src="//cdn.mapkit.io/v1/icons/' + icon + '.svg"/></i><span>' + location[part] + '</span></div>';
+                                    break;
+                                }
+                                break;
+                            case 'open_hours':
+                                var items = '';
+                                if (location.open_hours.length > 0){
+                                    for (var i = 0; i < location.open_hours.length; ++i) {
+                                        if (i !== 0){
+                                            items += '<li><strong>' + location.open_hours[i].day + '</strong><strong>' + location.open_hours[i].hours +'</strong></li>';
+                                        }
+                                        var first = '<li><label for="cb_hours"><input type="checkbox" id="cb_hours"/><strong>' + location.open_hours[0].day + '</strong><strong>' + location.open_hours[0].hours +'</strong><i class="material-icons toggle-open-hours"><img src="//cdn.mapkit.io/v1/icons/keyboard_arrow_down.svg"/></i><ul>' + items + '</ul></label></li>';
+                                    }
+                                    return '<div class="iw-list"><i class="material-icons first-material-icons" style="color:#4285f4;"><img src="//cdn.mapkit.io/v1/icons/' + icon + '.svg"/></i><ul>' + first + '</ul></div>';
+                                 } else {
+                                    return '';
+                                }
+                                break;
+                         }
+                    } else {
+                        return '';
+                    }
+                }
+
+                boxText.innerHTML = 
+                    buildPieces(location, 'photo', 'photo', '') +
+                    buildPieces(location, 'iw-toolbar', 'title', '') +
+                    buildPieces(location, 'div', 'address', 'location_on') +
+                    buildPieces(location, 'div', 'web', 'public') +
+                    buildPieces(location, 'div', 'email', 'email') +
+                    buildPieces(location, 'div', 'tel', 'phone') +
+                    buildPieces(location, 'div', 'int_tel', 'phone') +
+                    buildPieces(location, 'open_hours', 'open_hours', 'access_time') +
+                    buildPieces(location, 'div', 'desc', 'keyboard_arrow_down');
+
+                var myOptions = {
+                    alignBottom: true,
+                    content: boxText,
+                    disableAutoPan: true,
+                    maxWidth: 0,
+                    pixelOffset: new google.maps.Size(-140, -40),
+                    zIndex: null,
+                    boxStyle: {
+                        opacity: 1,
+                        width: '280px'
+                    },
+                    closeBoxMargin: '0px 0px 0px 0px',
+                    infoBoxClearance: new google.maps.Size(1, 1),
+                    isHidden: false,
+                    pane: 'floatPane',
+                    enableEventPropagation: false
+                };
+
+                location.ib = new InfoBox(myOptions);
+                location.ib.open(map, marker);
+                location.infoWindowVisible = true;
+            }
+        });
+    }
+
+    function init() {
+        var mapOptions = {
+            center: new google.maps.LatLng(13.090597840539797,80.20133867480467),
+            zoom: 14,
+            gestureHandling: 'auto',
+            fullscreenControl: false,
+            zoomControl: true,
+            disableDoubleClickZoom: true,
+            mapTypeControl: true,
+            mapTypeControlOptions: {
+                style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+            },
+            scaleControl: true,
+            scrollwheel: false,
+            streetViewControl: true,
+            draggable : true,
+            clickableIcons: false,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+        }
+        var mapElement = document.getElementById('mapkit-8592');
+        var map = new google.maps.Map(mapElement, mapOptions);
+        var locations = [
+            {"title":"CBSE Chennai Regional Office","address":"6th St, Thirumangalam, Bharathi Nagar, Anna Nagar, Chennai, Tamil Nadu 600040, India","desc":"","tel":"044 2616 2214","int_tel":"+91 44 2616 2214","email":"","web":"","web_formatted":"","open":"Closed","time":"1959","lat":13.0878881,"lng":80.19941349999999,"vicinity":"6th St, Thirumangalam, Chennai","open_hours":[{"day":"Monday","hours":"9:30am–1pm,2–5pm"},{"day":"Tuesday","hours":"9:30am–1pm,2–5pm"},{"day":"Wednesday","hours":"9:30am–1pm,2–5pm"},{"day":"Thursday","hours":"9:30am–1pm,2–5pm"},{"day":"Friday","hours":"9:30am–1pm,2–5pm"},{"day":"Saturday","hours":"Closed"},{"day":"Sunday","hours":"Closed"}],"marker":{"url":"https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png","scaledSize":{"width":25,"height":42,"f":"px","b":"px"},"origin":{"x":0,"y":0},"anchor":{"x":12,"y":42}},"iw":{"address":true,"desc":true,"email":true,"enable":true,"int_tel":true,"open":true,"open_hours":true,"photo":true,"tel":true,"title":true,"web":true}}
+        ];
+        for (i = 0; i < locations.length; i++) {
+            marker = new google.maps.Marker({
+                icon: locations[i].marker,
+                position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
+                map: map,
+                title: locations[i].title,
+                address: locations[i].address,
+                desc: locations[i].desc,
+                tel: locations[i].tel,
+                int_tel: locations[i].int_tel,
+                vicinity: locations[i].vicinity,
+                open: locations[i].open,
+                open_hours: locations[i].open_hours,
+                photo: locations[i].photo,
+                time: locations[i].time,
+                email: locations[i].email,
+                web: locations[i].web,
+                iw: locations[i].iw
+            });
+            markersArray.push(marker);
+
+            if (locations[i].iw.enable === true){
+                bindInfoWindow(marker, map, locations[i]);
+            }
+        }
+    }
+</script>
+   <script src="js/main.min.js"></script>
+   </body>
+</html>
