@@ -526,6 +526,6 @@ footer { background-color: $red; padding: 40px 0; }
     &:before, &:after { border-color: $red; }
   }
 }
-.contactPart .fR .formFill { padding: 30px 0; }
+.contactPart .fR .formFill { padding: 0 0 30px; }
 
 @import "CSS:css/responsive";

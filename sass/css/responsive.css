@@ -44,6 +44,7 @@
 	.productMap, .flexSliderm { display: block; }
 	.flexSliderm { padding-bottom: 30px; }
 	.contactPart .fR, .contactPart .fL, .contactPart .fL .text-right { float: none; text-align: left; }
+	.contactPart .fR { padding-top: 20px; }
 	.contactPart .fR .formFill { width: 100%; }
 }
 @media screen and (max-width:940px) {
@@ -58,7 +59,7 @@
 	.productOne>div:last-child, .productOne>div:first-child { width: 100%; }
 	.productOne>div:last-child { padding: 40px 0 0; }
 	.productMaper>div { width: 50%; }
-	.contactPart .fR .formFill { padding: 30px 0 0; }
+	.contactPart .fR .formFill { padding: 0; }
 }
 @media screen and (max-width:640px) {
 	[class^='col-xs-'] { float:none; width:100%; }
