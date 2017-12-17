@@ -80,13 +80,12 @@
 	.fifthLayer h2 { padding-bottom: 25px; }
 	.productMap .slick-arrow { display: none !important; }
 	.productMap { padding: 0; }
-	.productMap .slick-list { padding-right: 100px; }
+	.productMap .slick-list, .flexSliderm .slick-list { padding-right: 100px; }
 	.productOne>div:last-child h2 { padding-bottom: 20px; }
 	.productOne>div:last-child { padding: 30px 0 0; }
 	.subpage { padding: 35px 0 25px; }
 	.productTiles>div { width: 100%; }
 	.productMaper>div { width: 100%; }
-	.slick-list { padding-right: 100px; }
 	.formFill.shortWide { width: 100%; }
 	.subpage h2 { padding-bottom: 20px; }
 }
