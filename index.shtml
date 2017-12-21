@@ -107,6 +107,7 @@
    </div>
    </div>
    </header>
+   <div class="widerContainer">
    <div class="sliderHome">
    <div>
    <div class="coverBG" data-bg="images/slider1.jpg">
@@ -668,6 +669,7 @@
    </div>
    </div>
    </footer>
+   </div>
    <div class="popForm">
    <div>
    <a href="#" class="closePop"></a>

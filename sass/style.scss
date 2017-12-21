@@ -167,6 +167,7 @@ a { color: $dgrey; @extend .transitionRegular;
 }
 
 /* Homepage */
+.widerContainer { margin: 0 auto; width: auto; }
 .mobileMenu { display: none; }
 #nav-icon {
     cursor: pointer;

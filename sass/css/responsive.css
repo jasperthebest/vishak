@@ -1,3 +1,6 @@
+@media screen and (min-width: 1519px) {
+	.widerContainer { width: 1519px; }
+}
 @media screen and (max-width:1080px) {
 	.container { width: auto; }
 }
