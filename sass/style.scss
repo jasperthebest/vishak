@@ -58,7 +58,7 @@ input[type="text"], input[type="password"], textarea { border-radius: 0; @extend
 
 /* Basic setup */
 html { background-color: $red; }
-body { background-color: $white; color: $dgrey; font: 400 14px/24px $font; opacity: 0; padding-top: 71px; }
+body { background-color: $white; color: $dgrey; font: 400 14px/24px $font; opacity: 0; padding-top: 115px; }
 .coverBG { background-size: cover; background-repeat: no-repeat; }
 h1 { color: $red; font: 900 36px/46px $font; padding-bottom: 25px; }
 h2 { color: $red; font: 900 24px/32px $font; padding-bottom: 25px; }
@@ -188,7 +188,7 @@ a { color: $dgrey; @extend .transitionRegular;
     left: 20px;
     position: absolute;
     transition: .5s ease-in-out;
-    top: 50%;
+    top: calc(50% + 22px);
     visibility: visible;
     width: 25px;
     z-index: 30;
@@ -234,7 +234,9 @@ a { color: $dgrey; @extend .transitionRegular;
     width: 0%;
     left: 50%
 }
-header { background-color: $white; left: 0; padding: 10px 0; position: fixed; top: 0; width: 100%; z-index: 21; }
+header { background-color: $white; left: 0; padding: 0; position: fixed; top: 0; width: 100%; z-index: 21;
+  > .container { padding: 10px 15px; }
+}
 nav {
   ul {
     li { display: inline-block; padding: 0 29px;
@@ -323,7 +325,7 @@ nav {
 }
 .redProduct { background-color: #610001; padding: 60px 0 30px; }
 .productMaper { @include display(flex); @include flex-wrap(wrap); 
-  > div { padding-bottom: 20px; text-align: center; width: 25%; }
+  > div { padding: 0 5px 20px; text-align: center; width: 25%; }
 }
 .productMap { display: none; padding: 0 130px;
   .slick-arrow { color: rgba(255,255,255,1); display: inline-block; font-size: 90px; line-height: 30px;  position: absolute; top: 50%; z-index: 2; @include transform(translateY(-50%)); @extend .transitionRegular;
@@ -435,7 +437,7 @@ footer { background-color: $red; padding: 40px 0; }
   h2 { padding-bottom: 30px; text-align: left; }
 }
 .productTiles { @include display(flex); @include flex-wrap(wrap);
-  > div { padding-bottom: 15px; text-align: center; width: 25%;
+  > div { padding: 0 5px 15px; text-align: center; width: 25%;
     .productTub {
       &:hover {
         > span { color: $dgrey; }
@@ -482,8 +484,16 @@ footer { background-color: $red; padding: 40px 0; }
   }
 }
 .gallaryOne {
-  img { margin-bottom: 25px; width: 100%; }
+  img { margin: 0 auto 25px; }
   h2 { padding-bottom: 15px; }
+}
+.gallary-nav {
+  .slick-slide { padding: 0 5px; 
+    img { border: 2px solid transparent; @extend .transitionRegular; }
+    &.slick-current {
+      img { border-color: $red; }
+    }
+  }
 }
 .filterSliding { overflow-x: auto; padding-bottom: 25px;
   &::-webkit-scrollbar { display: none; }
@@ -528,5 +538,17 @@ footer { background-color: $red; padding: 40px 0; }
   }
 }
 .contactPart .fR .formFill { padding: 0 0 30px; }
+.topCtct { background-color: #efefef; padding: 10px 0;
+  small { padding: 0 5px; font-size: 100%; }
+  span, a { color: $maroon; font-size: 12px; font-weight: 700;
+    i { bottom: -2px; color: $maroon; font-size: 18px; padding-right: 10px; position: relative; }
+  }
+  a {
+    &:hover { color: $red; }
+  }
+  ul {
+    li { display: inline-block; padding: 0 8px; }
+  }
+}
 
 @import "CSS:css/responsive";

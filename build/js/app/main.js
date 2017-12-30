@@ -54,9 +54,27 @@
 		  slidesToShow: 1,
 		  slidesToScroll: 1,
 		  adaptiveHeight: true,
-		  arrows: false /*,
-		  prevArrow: '<a href="javascript:void(0);" class="slick-prev slick-arrow"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>',
+		  arrows: false,
+		  asNavFor: '.gallary-nav'
+		  /* prevArrow: '<a href="javascript:void(0);" class="slick-prev slick-arrow"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>',
 		  nextArrow: '<a href="javascript:void(0);" class="slick-next slick-arrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>' */
+		});
+		$('.gallary-nav').slick({
+		  slidesToShow: 3,
+		  slidesToScroll: 1,
+		  asNavFor: '.gallary',
+		  arrows: false,
+		  dots: false,
+		  centerMode: true,
+		  focusOnSelect: true/* ,
+		  responsive: [
+			    {
+			      breakpoint: 399,
+			      settings: {
+			        slidesToShow: 3,
+			        slidesToScroll: 1
+			      }
+			    }] */
 		});
 		$('.productMap').slick({
 			autoplay: false,
@@ -66,7 +84,7 @@
 			slidesToScroll: 1,
 			prevArrow: '<a href="javascript:void(0);" class="slick-prev slick-arrow"><</a>',
 			nextArrow: '<a href="javascript:void(0);" class="slick-next slick-arrow">></a>',
-			 responsive: [
+			responsive: [
 			    {
 			      breakpoint: 880,
 			      settings: {
@@ -161,7 +179,7 @@
 		$('.thirdLayer .productTub').click(function(){
 			var block = $(this).data('block');
 			if(!$(this).hasClass('active')) {
-				$("html, body").animate({ scrollTop: $('#slideTabScroll').offset().top - 71 }, 1000);
+				$("html, body").animate({ scrollTop: $('#slideTabScroll').offset().top - 115 }, 1000);
 				$('.thirdLayer .productTub').removeClass('active');
 				$(this).addClass('active');
 				$('.slideProduct > div').slideUp();

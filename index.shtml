@@ -24,6 +24,21 @@
    </head>
    <body>
    <header>
+   <div class="topCtct">
+   <div class="container">
+   <div class="clearfix">
+   <div class="fL">
+   <span><i class="fa fa-map-marker" aria-hidden="true"></i>AP 2261, H Block, 10th Street, Kathiravan Colony, Anna Nagar West, Chennai - 600040</span>
+   </div>
+   <div class="fR">
+   <ul>
+   <li><a href="tel:+918939111113"><i class="fa fa-phone" aria-hidden="true"></i>+91 89391 11113</a><small> | </small><a href="tel:+918939111114"><i class="fa fa-phone" aria-hidden="true"></i>+91 89391 11114</a></li>
+   <li><a href="mailto:info@vaishak.co.in"><i class="fa fa-envelope" aria-hidden="true"></i>info@vaishak.co.in</a></li>
+   </ul>
+   </div>
+   </div>
+   </div>
+   </div>
    <div id="mobile-icon">
    <span></span>
    <span></span>

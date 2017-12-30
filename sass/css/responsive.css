@@ -4,6 +4,9 @@
 @media screen and (max-width:1080px) {
 	.container { width: auto; }
 }
+@media screen and (max-width:1050px) {
+	.topCtct a i { padding-right: 7px; }
+}
 @media screen and (max-width:1023px) {
 	.animated {
 	opacity: 1 !important;
@@ -18,7 +21,7 @@
 	-moz-animation-delay: 0s !important;
 	animation-delay: 0s !important;
 	}
-	header { padding: 10px 0; }
+	.topCtct .fL { display: none; }
 	.subMenu, .clearRelative, .productMaper, .flexIcon { display: none; }
 	#mobile-icon { display: inline-block; }
 	/*
@@ -49,6 +52,7 @@
 	.contactPart .fR, .contactPart .fL, .contactPart .fL .text-right { float: none; text-align: left; }
 	.contactPart .fR { padding-top: 20px; }
 	.contactPart .fR .formFill { width: 100%; }
+	.productTub>div { padding: 0 6px; }
 }
 @media screen and (max-width:940px) {
 	.productMaper>div { width: 33.33%; }
@@ -87,10 +91,13 @@
 	.productOne>div:last-child h2 { padding-bottom: 20px; }
 	.productOne>div:last-child { padding: 30px 0 0; }
 	.subpage { padding: 35px 0 25px; }
-	.productTiles>div { width: 100%; }
-	.productMaper>div { width: 100%; }
+	.productTiles>div { padding: 0 0 15px; width: 100%; }
+	.productMaper>div { padding: 0 0 20px; width: 100%; }
 	.formFill.shortWide { width: 100%; }
 	.subpage h2 { padding-bottom: 20px; }
+	.topCtct .fR { float: none; text-align: center; }
+	.topCtct ul li:last-child { display: none; }
+	.topCtct ul li { padding: 0; }
 }
 @media screen and (max-width:460px) {
 	.filterNow strong { display: block; padding: 0 0 10px; }
